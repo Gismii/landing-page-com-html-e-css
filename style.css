@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+    
+
 
 * {
     margin: 0;
@@ -13,36 +15,55 @@ body {
     background: linear-gradient(68.15deg, #0a304e 16.62%, #12c1e0 85.61%);
     
     
+    
 }
 
 .topo
 {   display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:flex-start;
     justify-content: space-around;
-    padding: 24px;
+    padding: 24px; 
     
 }
 .topo-imagem {
-    max-width: 63%;
-    max-height: 63%;
     
+    max-height: 70px;
+    max-width: 70px;
+    position: absolute;
+    left: 8%;
+       
 }
+
 .topo-menu{
+
     display: flex;
-    gap: 32px;
+    gap: 32px; 
+    
 }
 .topo-menu-item{
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
     font-size: 18px;
+    margin-left: 35px;
+    position: relative;
+    left: 90%;
+    
+    
 }
 
+.topo-menu-item:hover {
+    background-color: rgba(3, 8, 1, 0.932);
+}
+
+
+   
 .conteudo {
     
     border-top: 0.4px solid #FFF2E7;
 }
+
 
 .conteudo-principal{
   display: flex;
@@ -132,16 +153,23 @@ color: #2F2325 ;
 
 .rodape{
     
-    padding: 32px;
+    padding: 15px;
     border-top: 0.4px solid #FFF2E7;
     margin: 0 auto;
     
 }
 
 .rodape-imagem{
-    height: 48px;
+    height: 60px;
     display: block;
     margin: 0 auto;
     
 }
 
+.sofa{
+
+    height: 230px;
+    margin: 0 auto;
+    display: block;
+    
+}
