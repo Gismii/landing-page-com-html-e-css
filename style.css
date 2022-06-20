@@ -23,14 +23,14 @@ body {
     flex-direction: row;
     align-items:flex-start;
     justify-content: space-around;
-    padding: 24px; 
-    background: black ;
+    /* padding: 24px;  */
+    background:#151515 ;
     
 }
 .topo-imagem {
     
-    max-height: 70px;
-    max-width: 70px;
+    max-height: 150px;
+    max-width: 150px;
     position: absolute;
     left: 8%;
        
@@ -48,7 +48,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     margin-left: 35px;
-    position: relative;
+    position: relative; 
     left: 90%;
     
     
@@ -95,6 +95,7 @@ body {
 .conteudo-principal-escrito-botão:hover {
     background-color: rgba(236, 214, 196, 0.53);
 }
+
 .conteudo-principal-escrito-botão{
 background-color: #ECD6C4;
 width: 180px;
@@ -157,12 +158,12 @@ color: #2F2325 ;
     /* padding: 15px; */
     border-top: 0.4px solid #FFF2E7;
     margin: 0 auto;
-    background: black;
+    background:#151515;
     
 }
 
 .rodape-imagem{
-    height: 60px;
+    height: 45px;
     display: block;
     margin: 0 auto;
     
