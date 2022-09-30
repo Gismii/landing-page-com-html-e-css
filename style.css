@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+
     
 
 
@@ -97,17 +99,18 @@ body {
 }
 
 .conteudo-principal-escrito-botão{
-background-color: #ECD6C4;
-width: 180px;
-height: 60px;
-border: none;
-box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-border-radius: 20px;
-font-family: 'Sarala' , sans-serif;
-font-weight: 400;
-Font-size: 18px;
-color: #2F2325 ;
-}
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala' , sans-serif;
+    font-weight: 400;
+    Font-size: 18px;
+    color: #2F2325 ;
+ }
+
 .conteudo-principal-imagem{
    height: 430px; 
 }
@@ -183,5 +186,265 @@ color: #2F2325 ;
     display: block;
     
 
+
+}
+/* Iniciando a responsividade */
+@media screen and (max-width: 420px) {
+    
+     .conteudo-principal{
+        display:inline-block;
+        
+        flex-direction:row-reverse;
+        align-items:center;
+       /* justify-content:flex-start;*/
+      
+      } 
+
+    .conteudo-principal-imagem{
+        height: 250px; 
+        padding-inline: 75px;
+     }
+
+     .topo-menu-item{
+        font-family: 'Sarala', sans-serif;
+        color: #FFF2E7;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 5px;
+        position:relative; 
+        left: 20%;
+               
+    }
+
+    .conteudo-principal-escrito-titulo{
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 65px;
+        color: #FFF2E7 ;
+        /*position:relative;*/
+        margin-left: 50px;
+        padding-block-start: 25%;
+        
+        
+    }
+
+    .topo-menu{
+
+        display:flexbox;
+        gap: 20px; 
+        
+    }
+
+    .conteudo-principal-escrito-subtitulo{
+        font-family: 'Sarala' , sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: #ecd6C4 ;
+        margin-left: 60px;
+        margin: 10%;
+        
+        
+    }
+
+    .conteudo-principal-escrito-botão{
+        background-color: #d8af8e;
+        width: 180px;
+        height: 100px;
+        border:#151515;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 60px;
+        font-family: 'Sarala' , sans-serif;
+        font-weight: 400;
+        Font-size: 25px;
+        color: #2F2325 ;
+        margin-left: 30px;
+        margin: 25%;
+        
+        
+    }
+
+    .conteudo-secudario-paragraf-one{
+        font-family: 'Sarala' , sans-serif;
+        font-weight: 400;
+        Font-size: 30px;
+        color: #ECD6C4;
+        margin: 10%;
+        
+    }
+    
+    .conteudo-secudario-paragraf-two{
+        font-family: 'Sarala' , sans-serif;
+        font-weight: 300;
+        Font-size: 30px;
+        color: #ECD6C4;
+        margin: 10%;
+        
+    }
+    .conteudo-secudario-paragraf-thre{
+        font-family: 'Sarala' , sans-serif;
+        font-weight: 300;
+        Font-size: 30px;
+        color: #ECD6C4;
+        height: 75px;
+        margin: 10%;
+        
+    }
+
+    .conteudo-secudario-titulo{
+        border-top: 0.4px solid #FFF2E7 ;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 32px;
+        color: #FFF2E7 ;
+        margin-bottom: 16px;
+    }
+
+    .sofa{
+
+        height: 100px;
+        margin: 80px;
+        display: block;
+        
+    }
+    
+    .topo-imagem {
+    
+        max-height: 180px;
+        max-width: 180px;
+        position: absolute;
+        left: 2%;
+           
+    }
+
+    
+}
+
+@media screen and (max-width: 336px) {
+    .conteudo-principal{
+        display:inline-block;
+        
+        flex-direction:row-reverse;
+        align-items:center;
+       /* justify-content:flex-start;*/
+      
+      } 
+
+    .conteudo-principal-imagem{
+        height: 250px; 
+        padding-inline: 75px;
+     }
+
+     .topo-menu-item{
+        font-family: 'Sarala', sans-serif;
+        color: #FFF2E7;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 5px;
+        position:relative; 
+        left: 20%;
+               
+    }
+
+    .conteudo-principal-escrito-titulo{
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 65px;
+        color: #FFF2E7 ;
+        /*position:relative;*/
+        margin-left: 50px;
+        padding-block-start: 25%;
+        
+        
+    }
+
+    .topo-menu{
+
+        display:flexbox;
+        gap: 20px; 
+        
+    }
+
+    .conteudo-principal-escrito-subtitulo{
+        font-family: 'Sarala' , sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: #ecd6C4 ;
+        margin-left: 60px;
+        margin: 10%;
+        
+        
+    }
+
+    .conteudo-principal-escrito-botão{
+        background-color: #d8af8e;
+        width: 180px;
+        height: 100px;
+        border:#151515;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 60px;
+        font-family: 'Sarala' , sans-serif;
+        font-weight: 400;
+        Font-size: 25px;
+        color: #2F2325 ;
+        margin-left: 30px;
+        margin: 25%;
+        
+        
+    }
+
+    .conteudo-secudario-paragraf-one{
+        font-family: 'Sarala' , sans-serif;
+        font-weight: 400;
+        Font-size: 30px;
+        color: #ECD6C4;
+        margin: 10%;
+        
+    }
+    
+    .conteudo-secudario-paragraf-two{
+        font-family: 'Sarala' , sans-serif;
+        font-weight: 300;
+        Font-size: 30px;
+        color: #ECD6C4;
+        margin: 10%;
+        
+    }
+    .conteudo-secudario-paragraf-thre{
+        font-family: 'Sarala' , sans-serif;
+        font-weight: 300;
+        Font-size: 30px;
+        color: #ECD6C4;
+        height: 75px;
+        margin: 10%;
+        
+    }
+
+    .conteudo-secudario-titulo{
+        border-top: 0.4px solid #FFF2E7 ;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 32px;
+        color: #FFF2E7 ;
+        margin-bottom: 16px;
+    }
+
+    .sofa{
+
+        height: 100px;
+        margin: 80px;
+        display: block;
+        
+    }
+    
+    .topo-imagem {
+    
+        max-height: 180px;
+        max-width: 180px;
+        position: absolute;
+        left: 2%;
+           
+    }
 
 }
